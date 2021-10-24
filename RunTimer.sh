@@ -15,6 +15,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 '
 
+
+
 echo "" >TimerOut.txt
 
 #-------------------------SIN SALIDA-------------------------------
@@ -365,7 +367,7 @@ echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
 
 
 echo -e "-------------------------AUTO SCHEDULER-------------------------------\n\n\n" >>  TimerOut.txt
-sed -i 's/#pragma omp for schedule(guided,chunk) collapse(2)/#pragma omp for schedule(auto,chunk) collapse(2)/' Bandera-OMP.c
+sed -i 's/#pragma omp for schedule(guided,chunk) collapse(2)/#pragma omp for schedule(auto) collapse(2)/' Bandera-OMP.c
 
 #------------SECUENCIAL-------------
 
@@ -445,3 +447,7 @@ echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
 ./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+
+sed -i 's/#pragma omp for schedule(auto) collapse(2)/#pragma omp for schedule(static,chunk) collapse(2)/' Bandera-OMP.c
+make
+

@@ -341,7 +341,7 @@ echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000>> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 #------------PARALELO 4 HEBRAS-------------
 

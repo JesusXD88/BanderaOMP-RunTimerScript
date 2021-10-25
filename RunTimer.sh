@@ -204,17 +204,17 @@ make
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 #------------PARALELO 1 HEBRA-------------
 
@@ -225,17 +225,17 @@ export OMP_NUM_THREADS=1
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 #------------PARALELO 2 HEBRAS-------------
 
@@ -244,17 +244,17 @@ export OMP_NUM_THREADS=2
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 #------------PARALELO 4 HEBRAS-------------
 
@@ -263,17 +263,17 @@ export OMP_NUM_THREADS=4
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 
 #-------------------------GUIDED SCHEDULER-------------------------------
@@ -291,17 +291,17 @@ make
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 #------------PARALELO 1 HEBRA-------------
 
@@ -312,17 +312,17 @@ export OMP_NUM_THREADS=1
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 #------------PARALELO 2 HEBRAS-------------
 
@@ -331,17 +331,17 @@ export OMP_NUM_THREADS=2
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000>> TimerOut.txt
 
 #------------PARALELO 4 HEBRAS-------------
 
@@ -350,17 +350,17 @@ export OMP_NUM_THREADS=4
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 
 #-------------------------AUTO SCHEDULER-------------------------------
@@ -377,17 +377,17 @@ make
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 #------------PARALELO 1 HEBRA-------------
 
@@ -398,17 +398,17 @@ export OMP_NUM_THREADS=1
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 #------------PARALELO 2 HEBRAS-------------
 
@@ -417,17 +417,17 @@ export OMP_NUM_THREADS=2
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 #------------PARALELO 4 HEBRAS-------------
 
@@ -436,18 +436,17 @@ export OMP_NUM_THREADS=4
 
 #1024x768
 echo -e "1024x768\n\n" >> TimerOut.txt
-./Bandera-OMP -r 768 -c 1024 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 768 -c 1024 >> TimerOut.txt
 
 #3000x2000
 
 echo -e "\n\n3000x2000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 2000 -c 3000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 2000 -c 3000 >> TimerOut.txt
 
 #40000x10000
 
 echo -e "\n\n40000x10000\n\n" >> TimerOut.txt
-./Bandera-OMP -r 10000 -c 40000 -o -of España >> TimerOut.txt
+./Bandera-OMP -r 10000 -c 40000 >> TimerOut.txt
 
 sed -i 's/#pragma omp for schedule(auto) collapse(2)/#pragma omp for schedule(static,chunk) collapse(2)/' Bandera-OMP.c
 make
-
